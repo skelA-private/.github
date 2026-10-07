@@ -3,7 +3,7 @@
   {"name": "status:ready",       "color": "0e8a16", "description": "Freigegeben; nur diese Issues fasst der Builder an"},
   {"name": "status:in-progress", "color": "1d76db", "description": "Ein Agent arbeitet daran (Sperre gegen Doppelbearbeitung)"},
   {"name": "status:needs-info",  "color": "d93f0b", "description": "Rückfrage an Martin offen"},
-  {"name": "status:review",      "color": "5319e7", "description": "PR mit Preview offen; wartet auf Martins Ja"},
+  {"name": "status:review",      "color": "5319e7", "description": "PR offen; Reviewer prüft und merged bei grüner CI"},
   {"name": "source:feedback",    "color": "c5def5", "description": "Aus dem Feedback-Widget"},
   {"name": "source:agent",       "color": "c5def5", "description": "Von einem Wartungs-Agent angelegt (Maintainer, Watchdog, Scout)"},
   {"name": "type:feature",       "color": "a2eeef", "description": "Neue Funktion oder Änderung"},
