@@ -1,0 +1,23 @@
+name: Fehler
+description: Etwas funktioniert nicht wie erwartet
+labels: ["type:bug", "status:triage"]
+body:
+  - type: textarea
+    id: was
+    attributes:
+      label: Was ist passiert?
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Was hätte passieren sollen?
+  - type: input
+    id: url
+    attributes:
+      label: Seite oder URL
+  - type: textarea
+    id: technik
+    attributes:
+      label: Technische Details (vom Feedback-Widget automatisch ausgefüllt)
+      render: text

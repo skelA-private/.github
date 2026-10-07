@@ -1,0 +1,18 @@
+name: Idee
+description: Eine Idee für ein neues Projekt oder Modul
+labels: ["type:idea", "status:triage"]
+body:
+  - type: textarea
+    id: idee
+    attributes:
+      label: Die Idee
+    validations:
+      required: true
+  - type: textarea
+    id: warum
+    attributes:
+      label: Warum ist sie spannend?
+  - type: textarea
+    id: forks
+    attributes:
+      label: Gibt es schon Open-Source-Projekte dazu? (optional, sonst sucht der Scout)

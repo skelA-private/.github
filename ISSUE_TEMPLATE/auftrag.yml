@@ -1,0 +1,22 @@
+name: Auftrag
+description: Etwas Neues oder eine Änderung, in natürlicher Sprache beschrieben
+labels: ["type:feature", "status:triage"]
+body:
+  - type: textarea
+    id: was
+    attributes:
+      label: Was soll passieren?
+      description: Beschreibe das Ziel so, wie du es einer Person erklären würdest. Code-Details sind nicht nötig.
+      placeholder: "Auf der Komparsen-Seite möchte ich Tage sperren können, an denen ich nicht verfügbar bin."
+    validations:
+      required: true
+  - type: textarea
+    id: fertig
+    attributes:
+      label: Woran erkenne ich, dass es fertig ist?
+      placeholder: "Ich wähle in der Preview ein Datum aus, und der Cronjob trägt mich an dem Tag nicht ein."
+  - type: textarea
+    id: kontext
+    attributes:
+      label: Kontext (optional)
+      description: Links, Screenshots, Einschränkungen
